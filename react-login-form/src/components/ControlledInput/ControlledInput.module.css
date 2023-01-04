@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+input {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 8px;
+  margin: 5px 0 3px;
+  font-size: 14px;
+  position: relative;
+}
+
+.withError {
+  border-color: rgb(216, 4, 4);
+}
+
+span {
+  color: rgb(216, 4, 4);
+}
+
+.errorMessage {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}

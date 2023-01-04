@@ -1,0 +1,27 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  line-height: 1.45rem;
+  color: #555;
+}
+
+body {
+  margin: 0;
+}
+
+ol {
+  padding: 1.3rem;
+  margin: 0;
+  list-style-position: inside;
+  column-count: 2;
+  column-gap: 10%;
+  column-rule: 2px solid #999;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+p {
+  text-indent: 1.2rem;
+}
